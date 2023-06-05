@@ -3,8 +3,9 @@ import express from "express";
 
 const api = express();
 
-api.get("/api/company", async (_, res) => {
-	const companies = await companiesController();
+api.get("/api/company", async (req, res) => {
+	const query = req.query;
+	const companies = await companiesController(+query.skip, +query.limit);
 
 	res.json(companies);
 });
