@@ -1,6 +1,6 @@
 # File Upload and Download Application
 
-This application is built to handle file uploads (for the company logo - JPG and PNG only), generate signed download and upload URLs for the uploaded files, and provide API endpoints to retrieve company data stored in the database. It is developed using Next.js, AWS SDK, Axios, Express, and Mongoose.
+This application is built to handle file uploads (for the company logo - JPG and PNG only), generate signed download and upload URLs for the uploaded files, and provide API endpoints to retrieve company data stored in the database. It is developed using Next.js, AWS SDK, Axios, Express, and Mongoose. The api endpoints served as datasource for its graphql [server](server)
 
 ## Features
 
